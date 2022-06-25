@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -27,13 +27,18 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  cached_network_image: ^3.2.1
   cloud_firestore: ^3.1.18
   cupertino_icons: ^1.0.2
   firebase_core: ^1.18.0
   firebase_storage: ^10.2.18
   flutter:
     sdk: flutter
+  fluttertoast: ^8.0.9
+  getwidget: ^3.0.1
   getxbottombar: ^0.0.1
+  image_cropper: ^2.0.3
+  image_editor_dove: ^0.0.2
   image_picker: ^0.8.5+3
 
 dev_dependencies:
@@ -45,7 +50,6 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
